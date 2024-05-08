@@ -7,7 +7,7 @@
   <groupId>com.example.www</groupId>
   <artifactId>hello-world-web-app</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <packaging>war</packaging>
+  <packaging>jar</packaging>
 
   <name>hello-world-web-app Maven Webapp</name>
   <!-- FIXME change it to the project's website -->
@@ -50,7 +50,7 @@
           <version>2.22.1</version>
         </plugin>
         <plugin>
-          <artifactId>maven-war-plugin</artifactId>
+          <artifactId>maven-jar-plugin</artifactId>
           <version>3.2.2</version>
         </plugin>
         <plugin>
